@@ -17,7 +17,7 @@ void setup() {
   tiltServo.attach(tiltPin);
   
   panServo.write(panPosition);
-  tiltServo.write(tiltPosition);
+  
   
   Serial.begin(9600);
   inputString.reserve(200);
